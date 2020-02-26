@@ -11,7 +11,7 @@
 	4. Edit distance is a way of quantifying how dissimilar two strings (e.g., words) are to one another by counting the minimum number of operations required to transform one string into the other. The operations can be Insertion, Deletion or Replacement of a character.
 	5. When a string is present in the dictionary, its meaning is returned
 	6. Whenever a word is not present in dictionary, we need to calculate edit distance of word entered with all the words present in dictionary which is time consuming.
-	7. To solve this problem, we see that whenever we calculate edit distance (by dynamic programming) we create a matrix.<br/> For eg. if we want to create edit distance matrix for "cat" and "kate" it will be of size 3*4, and now if we want to create a edit distance matrix for "cats" and "kate" it will be of size 4*4 but we only need to calculate the last row of this matrix as the submatrix of size 3*4 will be common and we must have calculated it before when we encounter it in trie.
+	7. To solve this problem, we see that whenever we calculate edit distance (by dynamic programming) we create a matrix.For eg. if we want to create edit distance matrix for "cat" and "kate" it will be of size 3*4, and now if we want to create a edit distance matrix for "cats" and "kate" it will be of size 4*4 but we only need to calculate the last row of this matrix as the submatrix of size 3*4 will be common and we must have calculated it before when we encounter it in trie.
 	8. The Next suggestion feature is also added, that is, when we press Search it will give 3 most probable prediction and when we hit Next suggestion, the next 3 most probable suggestion will come and so on. 
 
 
